@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# debugging nginx port 80
+# configuring nginx server to listen on port 80
 
 # removee the default nginx configuraration file
 rm /etc/nginx/sites-enabled/default
