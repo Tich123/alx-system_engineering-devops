@@ -16,3 +16,5 @@ sudo nginx -t
 
 # Restarting Nginx
 sudo service nginx reload
+
+echo "Hello World"
