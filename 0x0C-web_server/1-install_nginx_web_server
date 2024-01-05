@@ -17,4 +17,5 @@ sudo nginx -t
 # Restarting Nginx
 sudo service nginx reload
 
-echo "Hello World"
+# Test the configuration with curl
+curl localhost
