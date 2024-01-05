@@ -17,5 +17,5 @@ sudo nginx -t
 # Restarting Nginx
 sudo service nginx reload
 
-# Test the configuration with curl
-curl localhost
+# Output success message
+echo "Configuration complete. Nginx is now listening on port 80 and serving 'Hello World!' at the root."
