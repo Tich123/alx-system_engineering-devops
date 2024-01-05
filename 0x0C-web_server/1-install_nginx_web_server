@@ -17,5 +17,4 @@ sudo nginx -t
 # Restarting Nginx
 sudo service nginx reload
 
-# Output success message
-echo "Configuration complete. Nginx is now listening on port 80 and serving 'Hello World!' at the root."
+
