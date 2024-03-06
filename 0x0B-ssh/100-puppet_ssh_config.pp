@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Puppet script to create ssh config file
 file_line { 'Turn off passwd auth':
   ensure => 'present',
@@ -11,4 +10,3 @@ file_line { 'Declare identity file':
   path   => '/etc/ssh/ssh_config',
   line   => '    IdentityFile ~/.ssh/school',
 }
-
